@@ -1,0 +1,48 @@
+Date: 12/22/2025
+- What I worked on: Learning Python Syntax and Basics
+
+# Different data types
+a = 10          # Integer
+b = 20.5        # Float
+c = "Python"    # String
+d = True        # Boolean
+print(type(a))  # <class 'int'>
+print(type(b))  # <class 'float'>
+print(type(c))  # <class 'str'>
+print(type(d))  # <class 'bool'>
+
+# Arithmetic Operators
+x = 10
+y = 5
+print(x + y)  # 15
+print(x - y)  # 5
+print(x * y)  # 50
+print(x / y)  # 2.0
+
+# Logical Operators
+x = True
+y = False
+print(x and y)  # False
+print(x or y)   # True
+print(not x)    # False
+
+# The print function
+name = "Sean"
+age = 25
+print("Name:", name)
+print("Age:", age)
+print("Hello, World!")
+
+import datetime
+
+# Get the current date and time
+now = datetime.datetime.now()
+print("Current date and time:", now)
+
+# Get the current date
+today = datetime.date.today()
+print("Today's date:", today)
+
+# Create a specific date
+my_birthday = datetime.date(2000, 1, 1)
+print("My birthday:", my_birthday)
