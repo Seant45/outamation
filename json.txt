@@ -1,0 +1,14 @@
+What is JSON?
+JSON (JavaScript Object Notation), a format commonly used when working with APIs and AI-powered document processing tools.
+
+[
+  {"borrower": "John Doe", "email": "johndoe@email.com", "loan_amount": 250000, "interest_rate": 4.5},
+  {"borrower": "Jane Smith", "email": "janesmith@email.com", "loan_amount": 320000, "interest_rate": 3.9},
+  {"borrower": "Mike Brown", "email": "mikebrown@email.com", "loan_amount": "", "interest_rate": 4.2}
+]
+
+JSON is everywhere! JSON is used in:
+✅ APIs & Web Services – Websites send and receive data in JSON.
+✅ Databases – NoSQL databases (like MongoDB) store records as JSON.
+✅ Configuration Files – Apps use JSON to store settings.
+✅ Machine Learning Pipelines – JSON is used to format datasets.
